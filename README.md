@@ -24,6 +24,8 @@ Typically when a student is working on an assignment they'll follow these steps 
     Once the branch has been pushed to the remote repository (the 'origin' in the command pushes it to the remote repository) then you can open up
   a pull request for it by clicking on the link supplied in the terminal output resulting from the push command or by navigating to the branch in the browser via github.com and opening up a pull request there.
 
+    ![git push terminal output](./assets/img_git_push_output_pr_link.png "git push terminal output")
+
 5. Your reviewer reviews and approves your pull request, allowing you to merge it into your main branch.
 
 6. The assignment branch is merged into main and the assignment is complete.
@@ -32,7 +34,7 @@ Typically when a student is working on an assignment they'll follow these steps 
 
     Commands: `git switch main; git pull origin main; git switch -c week-02-assignment`
 
-Now this is the ideal workflow when completing assignments. However, your reviewers aren't Code the Dream slaves spending their entire existence waiting with bated breath on the email generated from your pull request notifying them that your assignment is ready for review. They're also people with their own lives who are generously volunteering their time to Code the Dream. They have their own jobs and careers to attend to during the week and sometimes that will be their priority over volunteering. This means there will be times where they won't get to your pull requests until the weekend after you submit your assignment. Additionally, there may be times when you have some free time at the end of one week and want to get a head start on the next week's assignment. In either of these two situations the above sequence of work does not apply.
+Now this is the ideal workflow when completing assignments. However, your reviewers aren't NPC's whose entire existence is devoted to reviewing your assignments. They're also main characters with their own lives who are generously volunteering their time to Code the Dream. They have their own jobs and careers to attend to during the week and sometimes that will be their priority over volunteering. This means there will be times where they won't get to your pull requests until the weekend after you submit your assignment. Additionally, there may be times when you have some free time at the end of one week and want to get a head start on the next week's assignment. In either of these two situations the above sequence of work does not apply.
 
 Instead of merging the previous week's assignment into main prior to creating a branch for the next assignment, you'll create a branch off of your previous assignment's branch in order to continue working on the code from the point of completion of the previous week's assignment.
 
